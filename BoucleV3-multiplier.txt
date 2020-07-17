@@ -1,0 +1,18 @@
+
+
+ALGORITHME factorisation
+
+	VARIABLE 
+		ENTIER n,i,produit
+		produit=0
+
+	DEBUT
+		ECRIRE (" Saisissez un entier:")
+		LIRE (n)
+
+		POUR (i allant de 1 à n)(par pas de 1)
+		CALCULER produit=n!
+		FIN_POUR
+
+		ECRIRE(" Le resultat est " +produit)
+	FIN 

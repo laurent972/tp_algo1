@@ -1,0 +1,53 @@
+
+
+
+
+ALGORITHME PetitGrandidentique
+	
+
+	VARIABLE
+		ENTIER: nb1,nb2
+		
+
+	DEBUT
+		ECRIRE ("Saisissez un nombre")
+		LIRE (nb1)
+		ECRIRE ("Saisissez un second nombre")
+		LIRE (nb2)
+		
+		SI (nb2 = nb1) ALORS
+			ECRIRE("Les nombres sont egaux")
+		SINON SI (nb1 < nb2) ALORS
+			ECRIRE ("Le premier nombre est plus petit que le deuxieme")
+		SINON  (nb1 > nb2) ALORS
+			ECRIRE ("Le premier nombre est plus grand que le deuxieme")
+		FIN_SI
+	
+	FIN
+
+
+
+/**** CORRECTION ****/
+
+ALGORITHME PetitGrandidentique
+	
+
+	VARIABLE
+		ENTIER: nb1,nb2
+		
+
+	DEBUT
+		ECRIRE ("Saisissez un nombre")
+		LIRE (nb1)
+		ECRIRE ("Saisissez un second nombre")
+		LIRE (nb2)
+		
+		SI (nb2 = nb1) ALORS
+			ECRIRE("Les nombres sont egaux")
+		SINON SI (nb1 < nb2) ALORS
+			ECRIRE ("Le premier nombre est plus petit que le deuxieme")
+		SINON
+			ECRIRE ("Le premier nombre est plus grand que le deuxieme")
+		FIN_SI
+	
+	FIN

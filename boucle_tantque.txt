@@ -1,0 +1,22 @@
+
+
+
+
+ALGORITHME calculEntiers_tantQue
+	
+	VARIABLE
+		ENTIER: n,somme,i
+		somme<- 0
+
+	DEBUT
+		ECRIRE ("saisissez un nombre")
+		LIRE (n)
+		
+		TANT QUE i<=n FAIRE
+		somme<- somme+i
+		i<- i+1
+		FIN_POUR
+
+		ECRIRE ("resultat:" +somme)			
+	FIN
+

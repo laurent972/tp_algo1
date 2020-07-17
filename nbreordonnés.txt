@@ -1,0 +1,26 @@
+
+Ecrire un algorithme qui demande à l’utilisateur deux nombres entiers nb1, nb2 lus au clavier
+et qui indique si les deux nombres sont ordonnés (vrai lorsque nb1<nb2)
+
+
+ALGORITHME NombresOrdonnés
+	
+
+	VARIABLE
+		REEL: nb1,nb2
+		
+
+	DEBUT
+		ECRIRE ("Entrer la valeur du 1er nombre")
+		LIRE (nb1)
+		ECRIRE ("Entrer la valeur du 2e nombre")
+		LIRE (nb2)
+		
+		SI nb1<nb2 ALORS
+			ECRIRE("Les 2 nombres sont ordonnés")
+		
+		SINON
+			ECRIRE ("Les 2 nombres ne sont pas ordonnés")
+		FIN_SI
+	
+	FIN

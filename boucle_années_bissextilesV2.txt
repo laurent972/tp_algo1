@@ -1,0 +1,24 @@
+
+
+ALGORITHME calculEntiers_for
+
+	
+	VARIABLE
+		ENTIER n
+		
+
+	DEBUT
+		SI (n MOD 4=0) OU (n MOD 400=0) ET (n MOD 100!=0) ALORS
+			ECRIRE ("Bissextile")
+		SINON
+			ECRIRE("Pas Bissextile)
+		FIN_SI
+
+		
+	FIN	
+	
+
+
+
+
+	

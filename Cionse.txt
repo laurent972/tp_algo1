@@ -1,0 +1,23 @@
+
+Ecrire un algorithme qui demande à l’utilisateur deux nombres entiers nb1, nb2 lus au clavier
+et qui indique si les deux nombres sont ordonnés (vrai lorsque nb1<nb2)
+
+
+ALGORITHME PairImpair
+	
+
+	VARIABLE
+		ENTIER: nb
+		
+
+	DEBUT
+		ECRIRE ("Entrer un nombre")
+		LIRE (nb)
+		
+		SI (nb MOD 2 =0) ALORS
+			ECRIRE("Le nombre est pair")
+		SINON
+			ECRIRE ("Le nombre N'EST PAS PAIR ")
+		FIN_SI
+	
+	FIN

@@ -1,0 +1,21 @@
+ALGORITHME MOYENNE
+	
+
+	VARIABLE
+		ENTIER: nombre1,nombre2,nombre3,nombre4
+		REEL: Moyenne
+
+	DEBUT
+		ECRIRE ("Entrer la valeur du 1er nombre")
+		LIRE (nombre1)
+		ECRIRE ("Entrer la valeur du 2e nombre")
+		LIRE (nombre2)
+		ECRIRE ("Entrer la valeur du 3e nombre")
+		LIRE (nombre3)
+		ECRIRE ("Entrer la valeur du 4e nombre")
+		LIRE (nombre4)
+		
+		resultat <- (nombre1+nombre2+nombre3+nombre4)/4
+		ECRIRE ("La moyenne est:" + resultat)
+	
+	FIN

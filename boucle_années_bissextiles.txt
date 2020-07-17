@@ -1,0 +1,30 @@
+
+
+ALGORITHME calculEntiers_for
+
+	
+	VARIABLE
+		ENTIER n
+		
+
+	DEBUT
+		SI n MOD 400 = 0 
+			ALORS ECRIRE("n est bissextile")
+		
+		SI_NON_SI n MOD 100=0
+			ALORS ECRIRE(" n N'EST PAS bissextile")
+
+ 		SI_NON_SI n MOD 4=0
+			ALORS (" n est bissextile")
+		SINON
+			ECRIRE("N n'est pas bissextile")
+
+		FIN_SI
+
+		
+	FIN	
+	
+
+
+
+	

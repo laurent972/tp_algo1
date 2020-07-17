@@ -1,0 +1,18 @@
+
+
+ALGORITHME RADIAN
+
+	
+	CONSTANTE
+		REEL: PI <- 3.14	
+
+	VARIABLE
+		REEL: angle,resultat
+
+	DEBUT
+		ECRIRE ("Entrer la valeur de l'angle en degré")
+		LIRE (angle)
+		resultat <- angle*PI/180
+		ECRIRE ("La valeur de l'angle en radian est egal à :" + resultat rad)
+	
+	FIN

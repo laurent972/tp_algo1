@@ -1,0 +1,25 @@
+
+Ecrire un algorithme qui demande à l’utilisateur deux nombres entiers nb1, nb2 lus au clavier
+et qui indique si les deux nombres sont ordonnés (vrai lorsque nb1<nb2)
+
+
+ALGORITHME ConsecutifsOrdonnés
+	
+
+	VARIABLE
+		ENTIER: nb1,nb2
+		
+
+	DEBUT
+		ECRIRE ("Saisissez un nombre")
+		LIRE (nb1)
+		ECRIRE ("Saisissez un second nombre")
+		LIRE (nb2)
+		
+		SI (nb2 = nb1+1) ALORS
+			ECRIRE("Les nombres se suivent et sont consecutifs")
+		SINON
+			ECRIRE ("Le nombre NE SE SUIVENT PAS et NE SONT PAS consecutifs ")
+		FIN_SI
+	
+	FIN

@@ -1,0 +1,15 @@
+
+ALGORITHME factorisation_FAIRE_TANT_QUE
+	VARIABLE 	
+		ENTIER annee, i
+	
+	DEBUT	
+		FAIRE
+			ECRIRE ( Saisissez une année)
+			LIRE (annee)
+		TANT_QUE  (annee <1900 OU annee =>2100 )
+			SI annee MOD 400 = 0 OU annee MOD 100<> 0 ET annee MOD 4 =0	
+			ECRIRE ( L'annee est bissextile )	
+			Sinon (l'anne n'est pas bissextile)
+			
+	FIN 

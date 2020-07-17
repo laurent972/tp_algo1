@@ -1,0 +1,28 @@
+
+
+ALGORITHME calculEntiers_for
+
+	
+	VARIABLE
+		ENTIER n,i
+		REEL resultat
+
+	DEBUT
+		
+		somme=0
+
+		POUR i allant de 1 à 4 faire
+		ECRIRE ("Saisissez un entier: ")
+		LIRE n
+		CALCULER somme<- somme+n
+		FIN_POUR
+
+		resultat=somme/4
+	
+		ECRIRE ("Le resultat est: " +resultat)
+	FIN	
+	
+
+
+
+	

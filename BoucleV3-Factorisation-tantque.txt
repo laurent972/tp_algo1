@@ -1,0 +1,20 @@
+
+
+ALGORITHME factorisation_Tant_que
+
+	VARIABLE 
+		ENTIER n,i,produit
+		produit <- 1
+		i=1
+	DEBUT
+		ECRIRE (Saisissez un nombre)
+		LIRE (n)
+
+		TANT QUE i<=n faire
+		produit<- produit*i
+		i<- i+1
+
+		FIN_TANT_QUE
+
+		ECRIRE (Resultat)
+	FIN 

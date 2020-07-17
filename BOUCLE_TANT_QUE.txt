@@ -1,0 +1,13 @@
+
+ALGORITHME factorisation_FAIRE_TANT_QUE
+	VARIABLE 	
+		int n,i,produit
+		i=1
+		produit=1
+	DEBUT
+		FAIRE 
+			produit=produit*i
+			i<-i+1
+		 TANT_QUE (i<=n (condition))
+		 FIN_FAIRE
+	FIN 

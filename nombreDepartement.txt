@@ -1,0 +1,23 @@
+
+
+
+
+ALGORITHME calculEntiers
+	
+	VARIABLE
+		ENTIER: n,somme,i
+		somme<- 0
+		i <- 1	
+		
+
+	DEBUT
+		ECRIRE ("saisissez un nombre")
+		LIRE (n)
+		
+		POUR i allant de 1 à n FAIRE
+		somme<- somme+i
+		FIN_POUR
+
+		ECRIRE ("resultat:" +somme)			
+	FIN
+

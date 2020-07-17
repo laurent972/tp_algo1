@@ -1,0 +1,16 @@
+
+ALGORITHME factorisation_FAIRE_TANT_QUE
+	VARIABLE 	
+		ENTIER n, note, somme	,resultat,i
+	DEBUT	
+		ECRIRE ("Saisissez le nombre de notes")
+		LIRE (n)
+		i=0
+		POUR i allant de  0 à n FAIRE
+			ECRIRE ("saisissez une note")
+			Lire (note)
+			somme=somme+note
+		FIN_POUR
+		resultat=somme/4
+		ECRIRE (" Le resultat est: " +resultat)
+	FIN 

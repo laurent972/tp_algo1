@@ -1,0 +1,42 @@
+
+
+// pas de 1
+
+ALGORITHME calculEntiers_for
+
+	
+	VARIABLE
+		ENTIER n,i,somme=0
+
+	DEBUT
+		ECRIRE ("Saisissez un entier: ")
+		LIRE n
+
+		POUR (i allant de 1 à n)(PAR PAS de 1)
+		CALCULER somme<- somme+i*2
+		FIN_POUR
+	
+		ECRIRE ("Le resultat est: " +somme)
+	FIN	
+	
+
+
+// pas de 2
+
+ALGORITHME calculEntiers_for
+
+	
+	VARIABLE
+		ENTIER n,i,somme=0
+
+	DEBUT
+		ECRIRE ("Saisissez un entier: ")
+		LIRE n
+
+		POUR (i allant de 2 à 2*n)(PAR PAS de 2)
+		CALCULER somme<- somme+i
+		FIN_POUR
+	
+		ECRIRE ("Le resultat est: " +somme)
+	FIN	
+	
